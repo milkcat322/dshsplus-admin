@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dshsplus 관리</title><link rel="icon" type="image/png" href="42/favicon-32.png">
+<script>
+// scripts/build-admin-plus.mjs 가 만든 첫 화면. 알림(/?view=admin…)으로 와도 주소 뒤를 그대로 넘깁니다.
+let c = null; try { c = localStorage.getItem("dshsplus-admin-cohort"); } catch {}
+if (c === "42" || c === "43") location.replace(c + "/" + location.search + location.hash);
+</script>
+<style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;gap:12px;background:#0a0a0f;font-family:'Noto Sans KR',system-ui,sans-serif}
+a{padding:18px 26px;border-radius:14px;border:1px solid #2a2a3d;background:#13131c;color:#e8e8f0;text-decoration:none;font-weight:700;font-size:17px}</style>
+</head><body><a href="42/">42기 관리</a><a href="43/">43기 관리</a></body></html>
