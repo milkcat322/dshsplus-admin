@@ -31,7 +31,7 @@ window.DSHS_COHORT = {
     "체육"
   ],
   "grade": 1,
-  "studentUrl": "https://dshsplus.app/43",
+  "studentUrl": "https://dshsplus.netlify.app/43",
   "academicUrl": "https://dshs43.netlify.app/academic.json",
   "keys": {
     "auth": "dshs43-admin-auth",
