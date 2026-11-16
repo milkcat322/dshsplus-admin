@@ -1,5 +1,6 @@
 // dshs43 관리 — scripts/build-admin.mjs 가 scripts/admin-cohorts.mjs 로 만든 파일입니다. 직접 고치지 않습니다.
 window.DSHS_COHORT = {
+  "plusSwitch": true,
   "id": 43,
   "label": "43기",
   "title": "dshs43 관리",
